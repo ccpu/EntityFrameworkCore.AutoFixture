@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore.AutoFix
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkCore.AutoFixture.Tests", "src\EntityFrameworkCore.AutoFixture.Tests\EntityFrameworkCore.AutoFixture.Tests.csproj", "{66633F47-A17D-4F10-8D34-5089E4E2354F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkCore.AutoFixture.NUnit.Tests", "EntityFrameworkCore.AutoFixture.NUnit.Tests\EntityFrameworkCore.AutoFixture.NUnit.Tests.csproj", "{82C19CF5-EBFE-43E2-98A1-35B18235ECFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,12 +33,17 @@ Global
 		{66633F47-A17D-4F10-8D34-5089E4E2354F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66633F47-A17D-4F10-8D34-5089E4E2354F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66633F47-A17D-4F10-8D34-5089E4E2354F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C19CF5-EBFE-43E2-98A1-35B18235ECFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C19CF5-EBFE-43E2-98A1-35B18235ECFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C19CF5-EBFE-43E2-98A1-35B18235ECFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C19CF5-EBFE-43E2-98A1-35B18235ECFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{66633F47-A17D-4F10-8D34-5089E4E2354F} = {E7FFEA53-E31A-43F7-A0CA-AEF7A7AE59DE}
+		{82C19CF5-EBFE-43E2-98A1-35B18235ECFF} = {E7FFEA53-E31A-43F7-A0CA-AEF7A7AE59DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBF14D09-229F-49A4-A7CA-7975072528FB}
