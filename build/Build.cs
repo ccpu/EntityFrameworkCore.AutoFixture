@@ -76,4 +76,16 @@ class Build : NukeBuild
             .EnableNoBuild()
             .EnableNoRestore());
         });
+
+    Target Package => _ => _
+        .DependsOn(Compile)
+        .Executes(() =>
+        {
+            DotNetPack(s => s
+            .SetOutputDirectory(ArtifactsDirectory)
+            .SetVersion(GitVersion.NuGetVersionV2)
+            .SetProject("./src/EntityFrameworkCore.AutoFixture")
+            .SetIncludeSymbols(true)
+            .SetSymbolPackageFormat(DotNetSymbolPackageFormat.snupkg));
+        });
 }
