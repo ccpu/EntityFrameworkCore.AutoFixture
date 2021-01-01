@@ -3,17 +3,18 @@
   <PropertyGroup>
     <TargetFrameworks>netcoreapp3.1;net5.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Copyright>Andrei Ivascu</Copyright>
     <Authors>wb-dev</Authors>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageId>WB.EntityFrameworkCore.AutoFixture</PackageId>
     <Product>EntityFrameworkCore.AutoFixture</Product>
     <Version>0.0.0</Version>
     <Description>A library aimed to minimize the setup of Entity Framework Core unit-testing database providers in conjunction with AutoFixture.</Description>
-    <PackageProjectUrl>https://github.com/aivascu/EntityFrameworkCore.AutoFixture</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/aivascu/EntityFrameworkCore.AutoFixture</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ccpu/EntityFrameworkCore.AutoFixture</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ccpu/EntityFrameworkCore.AutoFixture</RepositoryUrl>
     <PackageTags>EntityFramework, EntityFrameworkCore, EFCore, EF, AutoFixture,UnitTest, SQLite, In-Memory, Database Provider</PackageTags>
     <LangVersion>8.0</LangVersion>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
