@@ -3,7 +3,6 @@ using AutoFixture;
 
 namespace EntityFrameworkCore.AutoFixture.Core
 {
-    //
     public class DbContextCustomization : ICustomization
     {
         public virtual void Customize(IFixture fixture)
