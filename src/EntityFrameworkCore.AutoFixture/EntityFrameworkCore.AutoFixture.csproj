@@ -14,7 +14,7 @@
     <PackageTags>EntityFramework, EntityFrameworkCore, EFCore, EF, AutoFixture,UnitTest, SQLite, In-Memory, Database Provider</PackageTags>
     <LangVersion>8.0</LangVersion>
     <IncludeSymbols>true</IncludeSymbols>
-    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedAllSources>true</EmbedAllSources>
   </PropertyGroup>
 
   <ItemGroup>
